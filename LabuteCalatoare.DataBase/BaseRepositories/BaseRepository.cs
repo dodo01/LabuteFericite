@@ -15,7 +15,7 @@ namespace LabuteCalatoare.DataBase.BaseRepositories
         where TContext:BaseDbContext
         where TModel: BaseDbModel
     {
-        private readonly TContext _context;
+        private readonly TContext _context;  
         public BaseRepository(TContext context)
         {
             _context = context;
