@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using LabuteCalatoare.DataBase.BaseModel;
 using LabuteCalatoare.DataBase.BaseRepositories.Interfaces;
-using LabuteCalatoare.DataBase.Context;
+using LabuteCalatoare.DataBase.Contexts;
 using Microsoft.EntityFrameworkCore;
 
 namespace LabuteCalatoare.DataBase.BaseRepositories

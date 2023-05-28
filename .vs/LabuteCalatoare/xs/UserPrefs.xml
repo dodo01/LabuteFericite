@@ -1,14 +1,30 @@
 ﻿<Properties StartupConfiguration="{5AEF3B97-0B9B-4382-9D6C-E8482EE51CD4}|LabuteFericite" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LabuteCalatoare.DataBase/BaseRepositories/Interfaces/IRepository.cs">
+    <Files>
+      <File FileName="LabuteCalatoare.DataBase/Initialization/Startup.cs" Line="12" Column="189" />
+      <File FileName="../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets" Line="1987" Column="1" />
+      <File FileName="LabuteCalatoare/Middlewares/ExceptionHandlingMiddleware.cs" Line="34" Column="14" />
+      <File FileName="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" Line="8" Column="60" />
+      <File FileName="LabuteCalatoare.DataBase/BaseRepositories/Interfaces/IRepository.cs" Line="11" Column="72" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LabuteCalatoare" expanded="True">
-            <Node name="LabuteCalatoare.DataBase" expanded="True" />
+            <Node name="LabuteCalatoare.DataBase" expanded="True">
+              <Node name="BaseRepositories" expanded="True">
+                <Node name="Interfaces" expanded="True">
+                  <Node name="IRepository.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Initialization" expanded="True" />
+            </Node>
             <Node name="LabuteCalatoare.Infrastructure" expanded="True" />
             <Node name="LabuteCalatoare.Models" expanded="True" />
             <Node name="LabuteCalatoare.WebApi" expanded="True">
-              <Node name="appsettings.json" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Middlewares" expanded="True" />
             </Node>
           </Node>
         </State>

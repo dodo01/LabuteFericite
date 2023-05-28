@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v6HYWl+WYD5pEqIwc/5YNskElCeZP6Z4mztKXsKixGmrkwSiTYHAyJ+dGbJkWW6a4xkulXwdth+a26yVPjRxDA==",
+  "dgSpecHash": "Zp/kzhC/VrreCGAhxle7CveY8B0ypSaCavZ2OC7vGlVqXtkhxYqCDfXoz71QKPwHL4TAQX1d5vWZgt7UtZkHnA==",
   "success": true,
-  "projectFilePath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite/LabuteCalatoare.WebApi.csproj",
+  "projectFilePath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/LabuteCalatoare.WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/cosminlebada/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.0.0/microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "/Users/cosminlebada/.nuget/packages/microsoft.aspnetcore.authentication.core/2.0.0/microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",

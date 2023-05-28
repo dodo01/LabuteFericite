@@ -11,3 +11,16 @@
 /Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.pdb
 /Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.genruntimeconfig.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/bin/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.deps.json
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/bin/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.runtimeconfig.json
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/bin/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.runtimeconfig.dev.json
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/bin/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/bin/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.pdb
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.csproj.AssemblyReference.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.AssemblyInfoInputs.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.AssemblyInfo.cs
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.csproj.CoreCompileInputs.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.pdb
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/Debug/netcoreapp3.1/LabuteCalatoare.DataBase.genruntimeconfig.cache

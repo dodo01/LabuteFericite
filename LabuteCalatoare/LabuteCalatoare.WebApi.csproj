@@ -32,7 +32,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0-rc5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LabuteFericite.Infrastructure\LabuteCalatoare.Infrastructure.csproj">
+    <ProjectReference Include="..\LabuteCalatoare.Infrastructure\LabuteCalatoare.Infrastructure.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
