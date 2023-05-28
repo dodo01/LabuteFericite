@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K7XoGyvznYUVUAbW9w0u5L50LPggAQejdPmaagyk8ngnVti+4eFexd93YInf8hrZPfBDQ70VT95YhQHKsJhgZQ==",
+  "dgSpecHash": "wyrsneRcM2ThIhQZTTI24TwZy+2mpzieerNCgW9/SmM6t6+0NULGKO2dpuQF0HV7WFRYznag4/yZhAZTxGmHCA==",
   "success": true,
-  "projectFilePath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.Infrastructure/LabuteCalatoare.Infrastructure.csproj",
+  "projectFilePath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/LabuteCalatoare.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/cosminlebada/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.1.7/microsoft.aspnetcore.jsonpatch.3.1.7.nupkg.sha512",
     "/Users/cosminlebada/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/3.1.7/microsoft.aspnetcore.mvc.newtonsoftjson.3.1.7.nupkg.sha512",

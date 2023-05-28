@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/LabuteCalatoare.DataBase.csproj": {}
+    "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj": {}
   },
   "projects": {
-    "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/LabuteCalatoare.DataBase.csproj": {
+    "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/LabuteCalatoare.DataBase.csproj",
+        "projectUniqueName": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj",
         "projectName": "LabuteCalatoare.DataBase",
-        "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/LabuteCalatoare.DataBase.csproj",
+        "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj",
         "packagesPath": "/Users/cosminlebada/.nuget/packages/",
-        "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/obj/",
+        "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cosminlebada/.config/NuGet/NuGet.Config"
+          "/Users/cosminlebada/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -43,7 +42,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.32, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
