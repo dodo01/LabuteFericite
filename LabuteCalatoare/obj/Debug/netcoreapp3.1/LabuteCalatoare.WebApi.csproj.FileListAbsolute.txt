@@ -194,3 +194,4 @@
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/Debug/netcoreapp3.1/LabuteCalatoare.WebApi.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/Debug/netcoreapp3.1/LabuteCalatoare.WebApi.pdb
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/Debug/netcoreapp3.1/LabuteCalatoare.WebApi.genruntimeconfig.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/LabuteCalatoare.WebApi
