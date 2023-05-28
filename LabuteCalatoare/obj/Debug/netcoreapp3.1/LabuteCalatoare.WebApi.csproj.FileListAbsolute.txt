@@ -69,6 +69,7 @@
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Proxies.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -193,5 +194,3 @@
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/Debug/netcoreapp3.1/LabuteCalatoare.WebApi.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/Debug/netcoreapp3.1/LabuteCalatoare.WebApi.pdb
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/Debug/netcoreapp3.1/LabuteCalatoare.WebApi.genruntimeconfig.cache
-/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/LabuteCalatoare.WebApi
-/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
