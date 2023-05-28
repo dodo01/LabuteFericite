@@ -1,0 +1,10 @@
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/bin/Debug/netcoreapp3.1/LabuteCalatoare.Integration.deps.json
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/bin/Debug/netcoreapp3.1/LabuteCalatoare.Integration.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/bin/Debug/netcoreapp3.1/LabuteCalatoare.Integration.pdb
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.csproj.AssemblyReference.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.AssemblyInfoInputs.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.AssemblyInfo.cs
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.csproj.CoreCompileInputs.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Integration/obj/Debug/netcoreapp3.1/LabuteCalatoare.Integration.pdb

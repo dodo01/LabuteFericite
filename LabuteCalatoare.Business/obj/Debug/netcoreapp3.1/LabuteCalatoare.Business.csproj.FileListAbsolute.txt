@@ -1,0 +1,10 @@
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/bin/Debug/netcoreapp3.1/LabuteCalatoare.Business.deps.json
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/bin/Debug/netcoreapp3.1/LabuteCalatoare.Business.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/bin/Debug/netcoreapp3.1/LabuteCalatoare.Business.pdb
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.csproj.AssemblyReference.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.AssemblyInfoInputs.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.AssemblyInfo.cs
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.csproj.CoreCompileInputs.cache
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.dll
+/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Business/obj/Debug/netcoreapp3.1/LabuteCalatoare.Business.pdb

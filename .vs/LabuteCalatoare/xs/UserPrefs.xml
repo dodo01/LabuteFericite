@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{884E7B5C-8A9E-420F-A519-DB8BCE5F0445}|LabuteFericite" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LabuteFericite/appsettings.json">
+    <Files>
+      <File FileName="LabuteFericite/Startup.cs" Line="32" Column="135" />
+      <File FileName="LabuteFericite/Exceptions/EntityNotFoundException.cs" Line="7" Column="112" />
+      <File FileName="LabuteFericite/Middlewares/ExceptionHandlingMiddleware.cs" Line="6" Column="26" />
+      <File FileName="LabuteFericite.Infrastructure/Responses/FailureResponse.cs" Line="7" Column="6" />
+      <File FileName="LabuteFericite/Controllers/TestController.cs" Line="17" Column="22" />
+      <File FileName="LabuteFericite/Program.cs" Line="24" Column="20" />
+      <File FileName="LabuteCalatoare.Business/Class1.cs" Line="1" Column="1" />
+      <File FileName="LabuteCalatoare.Integration/Class1.cs" Line="1" Column="1" />
+      <File FileName="LabuteCalatoare.Models/Class1.cs" Line="1" Column="1" />
+      <File FileName="../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets" Line="1982" Column="5" />
+      <File FileName="LabuteFericite.DataBase/BaseRepositories/BaseRepository.cs" Line="62" Column="26" />
+      <File FileName="LabuteFericite.DataBase/BaseRepositories/Interfaces/IRepository.cs" Line="18" Column="55" />
+      <File FileName="LabuteFericite.DataBase/Context/BaseDbContext.cs" Line="7" Column="41" />
+      <File FileName="LabuteFericite.DataBase/BaseModel/BaseDbModel.cs" Line="9" Column="77" />
+      <File FileName="LabuteFericite.DataBase/Initialization/Startup.cs" Line="10" Column="35" />
+      <File FileName="LabuteFericite.DataBase/Contexts/LabuteCalatoareContext.cs" Line="22" Column="10" />
+      <File FileName="LabuteFericite.Infrastructure/EnvironmentUtils/EnvironmentVariableUtils.cs" Line="14" Column="1" />
+      <File FileName="LabuteFericite/appsettings.json" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LabuteCalatoare" expanded="True">
+            <Node name="LabuteCalatoare.Infrastructure" expanded="True">
+              <Node name="EnvironmentUtils" expanded="True" />
+            </Node>
+            <Node name="LabuteCalatoare.WebApi" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LabuteCalatoare.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.DataBase/BaseRepositories/BaseRepository.cs" relfile="LabuteFericite.DataBase/BaseRepositories/BaseRepository.cs" line="49" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

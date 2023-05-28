@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{884E7B5C-8A9E-420F-A519-DB8BCE5F0445}|LabuteFericite" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.LabuteCalatoare.Business FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LabuteCalatoare.Business/Class1.cs">
+    <Files>
+      <File FileName="LabuteFericite/Startup.cs" Line="63" Column="14" />
+      <File FileName="LabuteFericite/Exceptions/EntityNotFoundException.cs" Line="7" Column="112" />
+      <File FileName="LabuteFericite/Middlewares/ExceptionHandlingMiddleware.cs" Line="24" Column="10" />
+      <File FileName="LabuteFericite.Infrastructure/Responses/FailureResponse.cs" Line="6" Column="33" />
+      <File FileName="LabuteFericite/Controllers/TestController.cs" Line="17" Column="22" />
+      <File FileName="LabuteFericite/Program.cs" Line="24" Column="20" />
+      <File FileName="LabuteCalatoare.Business/Class1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LabuteFericite" expanded="True" selected="True">
+            <Node name="LabuteCalatoare.Business" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LabuteCalatoare.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.LabuteCalatoare.DataBase FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
