@@ -4,6 +4,84 @@
     "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/LabuteCalatoare.WebApi.csproj": {}
   },
   "projects": {
+    "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj",
+        "projectName": "LabuteCalatoare.DataBase",
+        "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj",
+        "packagesPath": "/Users/cosminlebada/.nuget/packages/",
+        "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cosminlebada/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/LabuteCalatoare.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -14,14 +92,13 @@
         "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cosminlebada/.config/NuGet/NuGet.Config"
+          "/Users/cosminlebada/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -73,19 +150,21 @@
         "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cosminlebada/.config/NuGet/NuGet.Config"
+          "/Users/cosminlebada/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj": {
+                "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/LabuteCalatoare.DataBase.csproj"
+              },
               "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/LabuteCalatoare.Infrastructure.csproj": {
                 "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/LabuteCalatoare.Infrastructure.csproj"
               }
@@ -109,6 +188,20 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -227,21 +227,20 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.Infrastructure/LabuteCalatoare.Infrastructure.csproj",
+      "projectUniqueName": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/LabuteCalatoare.Infrastructure.csproj",
       "projectName": "LabuteCalatoare.Infrastructure",
-      "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.Infrastructure/LabuteCalatoare.Infrastructure.csproj",
+      "projectPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/LabuteCalatoare.Infrastructure.csproj",
       "packagesPath": "/Users/cosminlebada/.nuget/packages/",
-      "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteFericite.Infrastructure/obj/",
+      "outputPath": "/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/cosminlebada/.config/NuGet/NuGet.Config"
+        "/Users/cosminlebada/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
