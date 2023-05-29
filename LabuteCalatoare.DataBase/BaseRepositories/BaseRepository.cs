@@ -19,13 +19,14 @@ namespace LabuteCalatoare.DataBase.BaseRepositories
         public BaseRepository(TContext context)
         {
             _context = context;
+           
         }
 
-        public async Task CreateAsync(params TModel[] elements)
+        public async Task CreateAsync(IEnumerable<TModel> elements)
         {
             try
             {
-                await _context.Set<TModel>().AddRangeAsync(elements, new CancellationTokenSource(TimeSpan.FromSeconds(30)).Token);
+                _context.Set<TModel>().AddRange(elements);
                 await _context.SaveChangesAsync(new CancellationTokenSource(TimeSpan.FromSeconds(30)).Token);
             }
             catch
@@ -112,7 +113,7 @@ namespace LabuteCalatoare.DataBase.BaseRepositories
                 }
                 return readValues;
             }
-            catch
+            catch(Exception ex)
             {
                 //insert error logs
                 return null;
