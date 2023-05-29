@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MySql.Data.MySqlClient;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
@@ -30,6 +31,7 @@ namespace LabuteFericite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<MySqlConnection>(_ => new MySqlConnection(Configuration.GetConnectionString("Database")));
             dbStartup.ConfigureServices(services, Configuration.GetConnectionString("Database"));
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile(EnvironmentVariableUtils.DefineConfigFile()).Build();
             services.AddControllers(options =>

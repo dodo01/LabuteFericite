@@ -15,6 +15,13 @@
     <None Remove="Microsoft.EntityFrameworkCore.Proxies" />
     <None Remove="BaseModel\" />
     <None Remove="Initialization\" />
+    <None Remove="TableModels\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Interfaces\" />
+    <None Remove="MySql.Data.EntityFrameworkCore" />
+    <None Remove="MySql.Web" />
+    <None Remove="MySql.Data.EntityFramework" />
+    <None Remove="MySql.Data" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
@@ -28,6 +35,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.33" />
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BaseRepositories\" />
@@ -35,5 +45,8 @@
     <Folder Include="Contexts\" />
     <Folder Include="BaseModel\" />
     <Folder Include="Initialization\" />
+    <Folder Include="TableModels\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
 </Project>

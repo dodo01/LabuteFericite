@@ -19,6 +19,9 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="MySql.Data" />
+    <None Remove="MySql.Data.EntityFrameworkCore" />
+    <None Remove="Pomelo.EntityFrameworkCore.MySql" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Filters\" />
@@ -39,6 +42,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LabuteCalatoare.Infrastructure\LabuteCalatoare.Infrastructure.csproj">
