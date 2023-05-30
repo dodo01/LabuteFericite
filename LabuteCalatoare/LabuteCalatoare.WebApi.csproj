@@ -46,5 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LabuteCalatoare.Business\LabuteCalatoare.Business.csproj" />
+    <ProjectReference Include="..\LabuteCalatoare.Infrastructure\LabuteCalatoare.Infrastructure.csproj" />
   </ItemGroup>
 </Project>
