@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using LabuteCalatoare.Infrastructure.EnvironmentUtils;
 using LabuteFericite.WebApi.Filters;
 using LabuteFericite.WebApi.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MySql.Data.MySqlClient;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
@@ -49,7 +44,7 @@ namespace LabuteFericite
 
             services.AddSwaggerGen(option =>
             {
-                option.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "LabuteFericite API", Version = "v1" });
+                option.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "LabuteCalatoare API", Version = "v1" });
 
             });
         }
@@ -70,7 +65,7 @@ namespace LabuteFericite
             app.UseSwagger();
             app.UseSwaggerUI(option =>
             {
-                option.SwaggerEndpoint("/swagger/v1/swagger.json", "LabuteFericite v1");
+                option.SwaggerEndpoint("/swagger/v1/swagger.json", "LabuteCalatoare v1");
                 option.RoutePrefix = String.Empty;
             });
 

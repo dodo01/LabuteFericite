@@ -1,32 +1,34 @@
-﻿using System.Collections.Generic;
+﻿using LabuteCalatoare.DataBase.TableModels;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using LabuteCalatoare.DataBase.TableModels;
 
-namespace LabuteCalatoare.DataBase.Repositories.Interface
+namespace LabuteCalatoare.Business.Services.Interfaces
 {
-    public interface IHotelRepository
+    public interface IHotelService
     {
+
         /// <summary>
-        /// Returns all hotel details from db
+        /// It gets all the hotels from DB
         /// </summary>
         /// <returns></returns>
         List<HotelHoteldata> GetAll();
 
         /// <summary>
-        /// Returns hotel by id
+        /// Returns the hotel details for the given ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         HotelHoteldata GetById(int id);
 
         /// <summary>
-        /// Insert new entry in hotel database
+        /// Inserts a new hotel with its data
         /// </summary>
         /// <param name="requestData"></param>
+        /// <returns></returns>
         Task Insert(HotelHoteldata requestData);
 
         /// <summary>
-        /// Delete hotel by id
+        /// Delete hotel by the given Id
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>

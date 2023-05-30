@@ -9,5 +9,10 @@ namespace LabuteCalatoare.Infrastructure.EnvironmentUtils
             return "appsettings.json";
 #endif
         }
+
+        public static string DefineNlogConfig()
+        {
+            return "NLog.config";
+        }
     }
 }

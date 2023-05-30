@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LabuteCalatoare.DataBase\LabuteCalatoare.DataBase.csproj" />
+    <ProjectReference Include="..\LabuteCalatoare.Infrastructure\LabuteCalatoare.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
