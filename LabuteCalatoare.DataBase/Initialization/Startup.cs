@@ -13,8 +13,7 @@ namespace LabuteCalatoare.DataBase.Initialization
 
        public void ConfigureServices(IServiceCollection services, string connectionString)
         {
-            MySql.Data.MySqlClient.MySqlConnectionStringBuilder a = new MySql.Data.MySqlClient.MySqlConnectionStringBuilder();
-            services.AddDbContext<LabuteCalatoareContext>(options =>options.UseMySQL(connectionString).EnableDetailedErrors().EnableSensitiveDataLogging(), ServiceLifetime.Transient);
+            services.AddDbContext<LabuteCalatoareContext>(options =>options.UseMySql(connectionString).EnableDetailedErrors().EnableSensitiveDataLogging(), ServiceLifetime.Transient);
 
             services.AddTransient<IHotelRepository, HotelRepository>();
 

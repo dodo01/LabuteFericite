@@ -31,7 +31,7 @@ namespace LabuteFericite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddTransient<MySqlConnection>(_ => new MySqlConnection(Configuration.GetConnectionString("Database")));
+           
             dbStartup.ConfigureServices(services, Configuration.GetConnectionString("Database"));
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile(EnvironmentVariableUtils.DefineConfigFile()).Build();
             services.AddControllers(options =>

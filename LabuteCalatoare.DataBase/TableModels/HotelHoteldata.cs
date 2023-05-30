@@ -1,10 +1,14 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using LabuteCalatoare.DataBase.BaseModel;
 
 namespace LabuteCalatoare.DataBase.TableModels
 {
-    public partial class HotelHoteldata : BaseDbModel
+    [Table("hotel.hoteldata")]
+    public class HotelHoteldata : BaseDbModel
     {
+        [Key]
         public int HotelId { get; set; }
         public string HotelsLink { get; set; }
         public string HotelName { get; set; }
