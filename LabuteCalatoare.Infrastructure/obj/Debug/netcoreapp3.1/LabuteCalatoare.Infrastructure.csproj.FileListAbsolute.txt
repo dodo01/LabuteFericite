@@ -11,7 +11,6 @@
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/bin/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.deps.json
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/bin/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.dll
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/bin/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.pdb
-/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/obj/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.csproj.AssemblyReference.cache
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/obj/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/obj/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.AssemblyInfoInputs.cache
 /Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.Infrastructure/obj/Debug/netcoreapp3.1/LabuteCalatoare.Infrastructure.AssemblyInfo.cs

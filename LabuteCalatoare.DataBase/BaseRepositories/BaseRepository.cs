@@ -113,7 +113,7 @@ namespace LabuteCalatoare.DataBase.BaseRepositories
                 }
                 return readValues;
             }
-            catch(Exception ex)
+            catch
             {
                 //insert error logs
                 return null;

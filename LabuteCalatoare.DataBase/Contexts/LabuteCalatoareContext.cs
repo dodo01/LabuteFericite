@@ -1,21 +1,33 @@
 ﻿using System;
-using System.Data.Entity.Core.Objects;
+using System.Data.Common;
 using LabuteCalatoare.DataBase.TableModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using MySql.Data.MySqlClient;
+using Pomelo.EntityFrameworkCore.MySql.Storage;
 
 namespace LabuteCalatoare.DataBase.Contexts
 {
-    public partial class LabuteCalatoareContext : BaseDbContext
+    public partial class LabuteCalatoareContext : DbContext
     {
-        public LabuteCalatoareContext(DbContextOptions options, MySqlConnection conn, ILoggerFactory loggerFactory = null): base(options, conn, loggerFactory)
-        {
-        }
+         private string _connectionString { get; set; }
+
+         public LabuteCalatoareContext(DbContextOptions options, IConfiguration config, ILoggerFactory loggerFactory = null)
+         {
+            _connectionString = config.GetConnectionString("Database");
+         }
+
 
         public virtual DbSet<HotelHoteldata> HotelHoteldata { get; set; }
 
-      
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured) //fallback mechanism
+            {
+                optionsBuilder.UseMySql(_connectionString);
+            }
+        }
+
         protected void CallOnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<HotelHoteldata>(entity =>
