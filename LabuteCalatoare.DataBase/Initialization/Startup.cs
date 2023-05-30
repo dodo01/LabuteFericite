@@ -1,6 +1,4 @@
-﻿using System;
-using System.Data.Common;
-using LabuteCalatoare.DataBase.Contexts;
+﻿using LabuteCalatoare.DataBase.Contexts;
 using LabuteCalatoare.DataBase.Repositories;
 using LabuteCalatoare.DataBase.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;

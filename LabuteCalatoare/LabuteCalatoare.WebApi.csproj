@@ -45,11 +45,7 @@
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LabuteCalatoare.Infrastructure\LabuteCalatoare.Infrastructure.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-    <ProjectReference Include="..\LabuteCalatoare.DataBase\LabuteCalatoare.DataBase.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
+    <ProjectReference Include="..\LabuteCalatoare.Business\LabuteCalatoare.Business.csproj" />
+    <ProjectReference Include="..\LabuteCalatoare.Infrastructure\LabuteCalatoare.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

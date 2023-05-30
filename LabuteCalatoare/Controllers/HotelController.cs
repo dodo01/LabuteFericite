@@ -1,12 +1,9 @@
-﻿
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using LabuteCalatoare.DataBase.Contexts;
-using LabuteCalatoare.DataBase.Repositories.Interface;
+using LabuteCalatoare.Business.Services.Interfaces;
 using LabuteCalatoare.DataBase.TableModels;
 using Microsoft.AspNetCore.Mvc;
-using MySql.Data.MySqlClient;
+
 
 namespace LabuteFericite.WebApi.Controllers
 {
@@ -14,35 +11,36 @@ namespace LabuteFericite.WebApi.Controllers
     [ApiController]
     public class HotelController : ControllerBase
     {
-        private IHotelRepository _hotelRepository;
-        public HotelController(IHotelRepository hotelRepository)
+        private readonly IHotelService _hotelService;
+
+        public HotelController(IHotelService hotelService)
         {
-            _hotelRepository = hotelRepository;
+            _hotelService = hotelService;
         }
 
         [HttpGet("[action]")]
         public List<HotelHoteldata> GetAll()
         {
-            return _hotelRepository.GetAllHotels();
+            return _hotelService.GetAll();
         }
 
         [HttpGet("[action]")]
         public HotelHoteldata GetById(int id)
         {
-            return _hotelRepository.GetHotelById(id);
+            return _hotelService.GetById(id);
         }
 
         [HttpPost("[action]")]
         public async Task<ActionResult> Insert(HotelHoteldata requestModel)
         {
-            await _hotelRepository.InsertHotel(requestModel);
+            await _hotelService.Insert(requestModel);
             return Ok();
         }
 
         [HttpDelete("[action]")]
         public async Task<ActionResult> DeleteById(int id)
         {
-            await _hotelRepository.DeleteHotelById(id);
+            await _hotelService.DeleteById(id);
             return Ok();
         }
 

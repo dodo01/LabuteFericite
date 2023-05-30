@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LabuteCalatoare.DataBase.BaseRepositories;
 using LabuteCalatoare.DataBase.Contexts;
 using LabuteCalatoare.DataBase.Repositories.Interface;
 using LabuteCalatoare.DataBase.TableModels;
@@ -18,23 +17,23 @@ namespace LabuteCalatoare.DataBase.Repositories
             _context = context;
         }
 
-        public List<HotelHoteldata> GetAllHotels()
+        public List<HotelHoteldata> GetAll()
         {
             return _context.HotelHoteldata.ToList();
         }
 
-        public HotelHoteldata GetHotelById(int id)
+        public HotelHoteldata GetById(int id)
         {
             return _context.HotelHoteldata.FirstOrDefault(item => item.HotelId == id);
         }
 
-        public async Task InsertHotel(HotelHoteldata requestData)
+        public async Task Insert(HotelHoteldata requestData)
         {
             await _context.HotelHoteldata.AddRangeAsync(requestData);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteHotelById(int id)
+        public async Task DeleteById(int id)
         {
             var entry = _context.HotelHoteldata.FirstOrDefault(item => item.HotelId == id);
             if (entry==null)
