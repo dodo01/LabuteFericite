@@ -11,21 +11,21 @@ namespace LabuteCalatoare.Business.Services.Interfaces
         /// It gets all the hotels from DB
         /// </summary>
         /// <returns></returns>
-        List<HotelHoteldata> GetAll();
+        Task<IEnumerable<HotelData>> GetAll();
 
         /// <summary>
         /// Returns the hotel details for the given ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        HotelHoteldata GetById(int id);
+        Task<HotelData> GetById(int id);
 
         /// <summary>
         /// Inserts a new hotel with its data
         /// </summary>
         /// <param name="requestData"></param>
         /// <returns></returns>
-        Task Insert(HotelHoteldata requestData);
+        Task Insert(HotelData requestData);
 
         /// <summary>
         /// Delete hotel by the given Id

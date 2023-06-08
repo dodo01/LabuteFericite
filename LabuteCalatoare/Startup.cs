@@ -30,7 +30,6 @@ namespace LabuteFericite
 
             dbStartup.ConfigureServices(services, Configuration.GetConnectionString("Database"));
             businessStartup.ConfigureServices(services);
-
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile(EnvironmentVariableUtils.DefineConfigFile()).Build();
             services.AddControllers(options =>
             {

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LabuteCalatoare.DataBase.BaseRepositories
 {
-    public class BaseRepository<TContext, TModel>: IBaseRepository<TContext, TModel>
+    public class BaseRepository<TContext, TModel>: IRepository<TContext, TModel>
         where TContext:BaseDbContext
         where TModel: BaseDbModel
     {
@@ -22,7 +22,7 @@ namespace LabuteCalatoare.DataBase.BaseRepositories
            
         }
 
-        public async Task CreateAsync(IEnumerable<TModel> elements)
+        public async Task CreateAsync(TModel elements)
         {
             try
             {
