@@ -19,19 +19,19 @@ namespace LabuteFericite.WebApi.Controllers
         }
 
         [HttpGet("[action]")]
-        public List<HotelHoteldata> GetAll()
+        public async Task<IEnumerable<HotelData>> GetAll()
         {
-            return _hotelService.GetAll();
+            return await _hotelService.GetAll();
         }
 
         [HttpGet("[action]")]
-        public HotelHoteldata GetById(int id)
+        public async Task<HotelData> GetById(int id)
         {
-            return _hotelService.GetById(id);
+            return await _hotelService.GetById(id);
         }
 
         [HttpPost("[action]")]
-        public async Task<ActionResult> Insert(HotelHoteldata requestModel)
+        public async Task<ActionResult> Insert(HotelData requestModel)
         {
             await _hotelService.Insert(requestModel);
             return Ok();

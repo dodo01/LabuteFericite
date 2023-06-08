@@ -11,7 +11,7 @@ namespace LabuteCalatoare.DataBase.Initialization
 
        public void ConfigureServices(IServiceCollection services, string connectionString)
         {
-            services.AddDbContext<LabuteCalatoareContext>(options =>options.UseMySql(connectionString).EnableDetailedErrors().EnableSensitiveDataLogging(), ServiceLifetime.Transient);
+            services.AddDbContext<LabuteCalatoareContext>(options =>options.UseSqlServer(connectionString).EnableDetailedErrors().EnableSensitiveDataLogging(), ServiceLifetime.Transient);
 
             services.AddTransient<IHotelRepository, HotelRepository>();
 

@@ -2,6 +2,7 @@
 using LabuteCalatoare.DataBase.Repositories.Interface;
 using LabuteCalatoare.DataBase.TableModels;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace LabuteCalatoare.Business.Services.DatabaseServices
@@ -19,9 +20,9 @@ namespace LabuteCalatoare.Business.Services.DatabaseServices
         /// It gets all the hotels from DB
         /// </summary>
         /// <returns></returns>
-        public List<HotelHoteldata> GetAll()
+        public async Task<IEnumerable<HotelData>> GetAll()
         {
-            return _hotelRepository.GetAll();
+            return await _hotelRepository.ReadAsync();
         }
 
         /// <summary>
@@ -29,9 +30,10 @@ namespace LabuteCalatoare.Business.Services.DatabaseServices
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public HotelHoteldata GetById(int id)
+        public async Task<HotelData> GetById(int id)
         {
-            return _hotelRepository.GetById(id);
+            var results = await _hotelRepository.ReadAsync(item=>item.HotelId==id);
+            return results.FirstOrDefault();
         }
 
         /// <summary>
@@ -39,9 +41,9 @@ namespace LabuteCalatoare.Business.Services.DatabaseServices
         /// </summary>
         /// <param name="requestData"></param>
         /// <returns></returns>
-        public async Task Insert(HotelHoteldata requestData)
+        public async Task Insert(HotelData requestData)
         {
-            await _hotelRepository.Insert(requestData);
+            await _hotelRepository.CreateAsync(requestData);
         }
 
         /// <summary>
@@ -51,7 +53,7 @@ namespace LabuteCalatoare.Business.Services.DatabaseServices
         /// <returns></returns>
         public async Task DeleteById(int id)
         {
-            await _hotelRepository.DeleteById(id);
+            await _hotelRepository.DeleteAsync(item=>item.HotelId==id);
         }
     }
 }

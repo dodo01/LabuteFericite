@@ -21,6 +21,7 @@ namespace LabuteFericite
 
         public IConfiguration Configuration { get; }
         public LabuteCalatoare.DataBase.Initialization.Startup dbStartup = new LabuteCalatoare.DataBase.Initialization.Startup();
+        public LabuteCalatoare.Business.Initialization.Startup businessStartup = new LabuteCalatoare.Business.Initialization.Startup();
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -28,6 +29,7 @@ namespace LabuteFericite
             services.AddControllersWithViews();
            
             dbStartup.ConfigureServices(services, Configuration.GetConnectionString("Database"));
+            businessStartup.ConfigureServices(services);
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile(EnvironmentVariableUtils.DefineConfigFile()).Build();
             services.AddControllers(options =>
             {

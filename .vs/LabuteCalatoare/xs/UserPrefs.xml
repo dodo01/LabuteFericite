@@ -1,43 +1,47 @@
 ﻿<Properties StartupConfiguration="{5AEF3B97-0B9B-4382-9D6C-E8482EE51CD4}|LabuteFericite" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LabuteCalatoare/Middlewares/ExceptionHandlingMiddleware.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LabuteCalatoare.Business/Initialization/Startup.cs">
     <Files>
-      <File FileName="LabuteCalatoare.DataBase/TableModels/HotelHoteldata.cs" Line="17" Column="47" />
-      <File FileName="LabuteCalatoare.DataBase/Repositories/IHotelRepository.cs" Line="18" Column="22" />
-      <File FileName="LabuteCalatoare/Startup.cs" Line="34" Column="12" />
-      <File FileName="LabuteCalatoare.DataBase/Repositories/HotelRepository.cs" Line="43" Column="56" />
-      <File FileName="LabuteCalatoare.DataBase/Contexts/LabuteCalatoareContext.cs" Line="13" Column="56" />
-      <File FileName="LabuteCalatoare.DataBase/Initialization/Startup.cs" Line="16" Column="1" />
-      <File FileName="LabuteCalatoare/Controllers/TestController.cs" Line="51" Column="10" />
-      <File FileName="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" Line="116" Column="18" />
-      <File FileName="LabuteCalatoare/Middlewares/ExceptionHandlingMiddleware.cs" Line="16" Column="34" />
+      <File FileName="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" Line="29" Column="40" IsPinned="True" />
+      <File FileName="LabuteCalatoare.DataBase/TableModels/HotelHoteldata.cs" Line="8" Column="49" />
+      <File FileName="LabuteCalatoare/Startup.cs" Line="30" Column="34" />
+      <File FileName="LabuteCalatoare.DataBase/Repositories/HotelRepository.cs" Line="20" Column="1" />
+      <File FileName="LabuteCalatoare/Models /HotelData.cs" Line="12" Column="6" />
+      <File FileName="LabuteCalatoare.DataBase/Contexts/BaseDbContext.cs" Line="7" Column="18" />
+      <File FileName="LabuteCalatoare.DataBase/Repositories/Interfaces/IHotelRepository.cs" Line="11" Column="6" />
+      <File FileName="LabuteCalatoare.DataBase/BaseRepositories/Interfaces/IRepository.cs" Line="13" Column="32" />
+      <File FileName="LabuteCalatoare.Business/Services/DatabaseServices/HotelService.cs" Line="12" Column="23" />
+      <File FileName="LabuteCalatoare.Business/Services/Interfaces/IHotelService.cs" Line="7" Column="22" />
+      <File FileName="LabuteCalatoare/Controllers/HotelController.cs" Line="14" Column="35" />
+      <File FileName="LabuteCalatoare.Business/Initialization/Startup.cs" Line="15" Column="10" />
+      <File FileName="LabuteCalatoare.DataBase/Initialization/Startup.cs" Line="18" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LabuteCalatoare" expanded="True">
-            <Node name="LabuteCalatoare.DataBase" expanded="True">
-              <Node name="BaseRepositories" expanded="True">
+            <Node name="LabuteCalatoare.Business" expanded="True">
+              <Node name="Initialization" expanded="True">
+                <Node name="Startup.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="DatabaseServices" expanded="True" />
                 <Node name="Interfaces" expanded="True" />
               </Node>
-              <Node name="Contexts" expanded="True" />
+            </Node>
+            <Node name="LabuteCalatoare.DataBase" expanded="True">
+              <Node name="Initialization" expanded="True" />
               <Node name="Repositories" expanded="True">
                 <Node name="Interfaces" expanded="True" />
               </Node>
               <Node name="TableModels" expanded="True" />
             </Node>
             <Node name="LabuteCalatoare.WebApi" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Middlewares" expanded="True">
-                <Node name="ExceptionHandlingMiddleware.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>conn</Value>
-          <Value>context.HotelHoteldata</Value>
         </State>
       </Pad>
     </Pads>
@@ -51,8 +55,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" relfile="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" line="50" column="1" />
-      <Breakpoint file="/Users/cosminlebada/Projects/LabuteFericite/LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" relfile="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" line="116" column="1" />
+      <Breakpoint file="/Users/cosminlebada/Projects/LabuteCalatoare/LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" relfile="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" line="50" column="1" />
+      <Breakpoint file="/Users/cosminlebada/Projects/LabuteCalatoare/LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" relfile="LabuteCalatoare.DataBase/BaseRepositories/BaseRepository.cs" line="116" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
