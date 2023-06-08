@@ -1,6 +1,7 @@
 ﻿using LabuteCalatoare.Business.Services.Interfaces;
 using LabuteCalatoare.DataBase.Repositories.Interface;
 using LabuteCalatoare.DataBase.TableModels;
+using NLog;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,6 +11,7 @@ namespace LabuteCalatoare.Business.Services.DatabaseServices
     public class HotelService : IHotelService
     {
         private IHotelRepository _hotelRepository;
+        private static readonly Logger Logger = NLogService.GetLogger();
 
         public HotelService(IHotelRepository hotelRepository)
         {

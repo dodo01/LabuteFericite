@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,6 +16,5 @@ namespace LabuteCalatoare.Business.Initialization
         {
             services.AddTransient<IHotelService, HotelService>();
         }
-
     }
 }
