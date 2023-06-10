@@ -4,15 +4,11 @@ using LabuteCalatoare.DataBase.Repositories.Interfaces;
 using LabuteCalatoare.DataBase.TableModels;
 
 namespace LabuteCalatoare.DataBase.Repositories
-
 {
-    public class HotelRepository: BaseRepository<LabuteCalatoareContext, HotelData>, IHotelRepository
+    public class ImageRepository : BaseRepository<LabuteCalatoareContext, Images>, IImagesRepository
     {
-
-        public HotelRepository(LabuteCalatoareContext context) : base(context)
+        public ImageRepository(LabuteCalatoareContext context) : base(context)
         {
-            
         }
-     
     }
 }

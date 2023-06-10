@@ -1,5 +1,5 @@
 ﻿using LabuteCalatoare.Business.Services.Interfaces;
-using LabuteCalatoare.DataBase.Repositories.Interface;
+using LabuteCalatoare.DataBase.Repositories.Interfaces;
 using LabuteCalatoare.DataBase.TableModels;
 using NLog;
 using System.Collections.Generic;
