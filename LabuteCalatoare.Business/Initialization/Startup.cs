@@ -1,4 +1,7 @@
-﻿using LabuteCalatoare.Business.Services.DatabaseServices;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using LabuteCalatoare.Business.Services.DatabaseServices;
 using LabuteCalatoare.Business.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +14,5 @@ namespace LabuteCalatoare.Business.Initialization
             services.AddTransient<IHotelService, HotelService>();
             services.AddTransient<IImagesService, ImagesService>();
         }
-
     }
 }

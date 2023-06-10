@@ -27,7 +27,7 @@ namespace LabuteFericite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-           
+
             dbStartup.ConfigureServices(services, Configuration.GetConnectionString("Database"));
             businessStartup.ConfigureServices(services);
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile(EnvironmentVariableUtils.DefineConfigFile()).Build();
@@ -75,7 +75,7 @@ namespace LabuteFericite
 
             app.UseRouting();
             app.UseMiddleware(typeof(ExceptionHandlingMiddleware));
-           
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
